@@ -11,3 +11,17 @@ Data structures are fundamental constructs used in software engineering to organ
 _Data Structures are used to organize and store data to use it in an effective way when performing data operations._
 
 
+*Note:*
+Depending on your requirement and project, it is important to choose the right data structure for your project.
+
+## What is Algorithm?
+
+Algorithms are step-by-step procedures or sets of rules followed to solve problems or accomplish specific tasks. In software engineering, algorithms are essential for performing computations, data processing, and automated reasoning. They serve as the backbone for computer programs, determining how data is processed, manipulated, and transformed.
+
+Algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input(s) and produces the desired output.
+
+### Example:
+An algorithm to add two numbers:
+ 1. Take two numbers as input.
+ 2. Add numbers using the addition operator (+).
+ 3. Display the result.
