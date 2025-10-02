@@ -4,6 +4,8 @@ Time complexity is a computational complexity that describes the amount of time 
 
 ![Time Complexity](../res/img/undraw_processing_bto8.svg)
 
+</br>
+
 Basic operations that contribute to time complexity include:
  1. Comparisons
  2. Assignments
@@ -81,6 +83,7 @@ Time complexity: O(1 + n + n<sup>2</sup> + n<sup>2</sup>) = O(2n<sup>2</sup> + n
 
   **Quadratic time complexity**
 
+</br>
 
 ## Summary of Common Time Complexities:
 
@@ -91,7 +94,7 @@ If n = 10, 100, 1000:
 +-----------------------+------------+-----------+-----------+-----------+
 | Time Complexity       | Notation   | n=10      | n=100     | n=1000    |
 |-----------------------|------------|-----------|-----------|-----------|
-| Constant              | O(1)       | 1         | 1         | 1         |
+| Constant              | O(1)       | 1         | 1         | 1         |   // Always 1
 | Linear                | O(n)       | 10        | 100       | 1000      |
 | Quadratic             | O(n^2)     | 100       | 10,000    | 1,000,000 |
 | Exponential           | O(2^n)     | 1024      | 1.27M     | 1.07B     |
