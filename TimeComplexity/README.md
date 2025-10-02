@@ -86,7 +86,7 @@ Time complexity: O(1 + n + n<sup>2</sup> + n<sup>2</sup>) = O(2n<sup>2</sup> + n
 
 If n = 10, 100, 1000:
 
-```html,plaintext
+```plaintext
 
 +-----------------------+------------+-----------+-----------+-----------+
 | Time Complexity       | Notation   | n=10      | n=100     | n=1000    |
