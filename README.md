@@ -88,7 +88,7 @@ Find the largest number among three numbers:
 
 ### Efficiency of Algorithms:
 
- - Time Complexity:
+ - [Time Complexity](./TimeComplexity/):
      - Amount of time required for an execution.
   
  - Space Complexity:

@@ -19,5 +19,5 @@ void m() {                                        void m(int i) {
 
 Time complexity: O(1)         Order of 1
 
-  *Constant time complexity*
+  **Constant time complexity**
 
