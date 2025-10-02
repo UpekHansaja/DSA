@@ -2,6 +2,8 @@
 
 Time complexity is a computational complexity that describes the amount of time it takes to run an algorithm as a function of the length of the input. It provides an estimate of the efficiency of an algorithm in terms of time required for execution.
 
+![Time Complexity](../res/img/undraw_processing_bto8.svg)
+
 Basic operations that contribute to time complexity include:
  1. Comparisons
  2. Assignments
@@ -78,3 +80,24 @@ void m(int n) {
 Time complexity: O(1 + n + n<sup>2</sup> + n<sup>2</sup>) = O(2n<sup>2</sup> + n + 1) = O(n<sup>2</sup>)         Order of n squared
 
   **Quadratic time complexity**
+
+
+## Summary of Common Time Complexities:
+
+If n = 10, 100, 1000:
+
+```html,plaintext
+
++-----------------------+------------+-----------+-----------+-----------+
+| Time Complexity       | Notation   | n=10      | n=100     | n=1000    |
+|-----------------------|------------|-----------|-----------|-----------|
+| Constant              | O(1)       | 1         | 1         | 1         |
+| Linear                | O(n)       | 10        | 100       | 1000      |
+| Quadratic             | O(n<sup>2</sup>)     | 100       | 10,000    | 1,000,000 |
+| Exponential           | O(2<sup>n</sup>)     | 1024      | 1.27M     | 1.07B     |
+| Logarithmic           | O(log n)   | 3.32      | 6.64      | 9.97      |
+| Linearithmic          | O(n log n) | 33.2      | 664       | 9970      |
++-----------------------+------------+-----------+-----------+-----------+
+
+```
+
