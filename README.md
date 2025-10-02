@@ -39,6 +39,8 @@ Here are some essential qualities that define a good algorithm:
 
 ### Key Characteristics of Algorithms include:
 
+```plaintext
+
 +--------------+------------------------------------------------------------------+
 | Input        | Algorithms take zero or more inputs. These inputs can be numbers,| 
 |              | strings, arrays, or any other data type relevant to the problem  |
@@ -62,3 +64,5 @@ Here are some essential qualities that define a good algorithm:
 |              | resource constraints.                                            |
 +--------------+------------------------------------------------------------------+
 
+
+```
