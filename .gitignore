@@ -1,0 +1,43 @@
+# IDE 
+.vscode/
+.idea/
+
+# Build
+target/
+build/
+dist/
+*.exe
+*.dll
+*.so
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment files
+.env
+.env.local
+.env.*.local

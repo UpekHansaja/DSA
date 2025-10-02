@@ -25,3 +25,14 @@ An algorithm to add two numbers:
  1. Take two numbers as input.
  2. Add numbers using the addition operator (+).
  3. Display the result.
+
+
+### Qualities of a good Algorithm:
+
+Here are some essential qualities that define a good algorithm:
+
+ - Input & Output should be defined precisely.
+ - Each step in the algorithm should be clear and unambiguous.
+ - Algorithm should be most effective among many different ways to solve a problem.
+ - An algorithm shouldn't include computer code. Instead, the algorithm should be written in such a way that it can be used in different programming languages.
+
