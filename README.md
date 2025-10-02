@@ -85,3 +85,12 @@ Find the largest number among three numbers:
 7. End.
 
 ```
+
+### Efficiency of Algorithms:
+
+ - Time Complexity:
+     - Amount of time required for an execution.
+  
+ - Space Complexity:
+     - Amount of memory space required when it runs.
+
