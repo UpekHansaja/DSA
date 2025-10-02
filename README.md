@@ -20,7 +20,7 @@ Algorithms are step-by-step procedures or sets of rules followed to solve proble
 
 Algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input(s) and produces the desired output.
 
-### Example:
+### Example 1:
 An algorithm to add two numbers:
  1. Take two numbers as input.
  2. Add numbers using the addition operator (+).
@@ -64,5 +64,24 @@ Here are some essential qualities that define a good algorithm:
 |                 | resource constraints.                                             |
 +-----------------+-------------------------------------------------------------------+
 
+
+```
+
+### Example 2:
+
+Find the largest number among three numbers:
+
+```plaintext
+
+1. Start
+2. Input three numbers: A, B, C
+3. Initialize a variable 'largest'.
+4. Compare with first two numbers A and B:
+    - If A > B, then assign largest = A
+    - Otherwise, assign largest = B
+5. Compare largest with the third number C:
+    - If C > largest, then assign largest = C
+6. Output the value of largest
+7. End.
 
 ```
