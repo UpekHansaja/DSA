@@ -41,28 +41,28 @@ Here are some essential qualities that define a good algorithm:
 
 ```plaintext
 
-+--------------+------------------------------------------------------------------+
-| Input        | Algorithms take zero or more inputs. These inputs can be numbers,| 
-|              | strings, arrays, or any other data type relevant to the problem  |
-|              | being solved.                                                    |
-+--------------+------------------------------------------------------------------+
-| Output       | Algorithms produce one or more outputs based on the input and the|
-|              | steps performed. The output could be a result, a modified input, |
-|              | or simply a signal indicating completion of a task.              |
-+--------------+------------------------------------------------------------------+
-| Definiteness | Algorithms are precise and unambiguous, with each step clearly   |
-|              | defined and executable. This ensures that the algorithm can be   |
-|              | followed exactly and consistently to produce the desired outcome.|
-+--------------+------------------------------------------------------------------+
-| Finiteness   | Algorithms must terminate after a finite number of steps. They   |
-|              | cannot run indefinitely, ensuring that the problem-solving       |
-|              | process eventually reaches a conclusion.                         |
-+--------------+------------------------------------------------------------------+
-| Effectiveness| Algorithms must be effective in solving the problem they are     |
-|              | designed for. This means they should correctly solve the problem,|
-|              | preferably in an efficient manner, within reasonable time and    |
-|              | resource constraints.                                            |
-+--------------+------------------------------------------------------------------+
++-----------------+-------------------------------------------------------------------+
+| Input           | Algorithms take zero or more inputs. These inputs can be numbers, | 
+|                 | strings, arrays, or any other data type relevant to the problem   |
+|                 | being solved.                                                     |
++-----------------+-------------------------------------------------------------------+
+| Output          | Algorithms produce one or more outputs based on the input and the |
+|                 | steps performed. The output could be a result, a modified input,  |
+|                 | or simply a signal indicating completion of a task.               |
++-----------------+-------------------------------------------------------------------+
+| Definiteness    | Algorithms are precise and unambiguous, with each step clearly    |
+|                 | defined and executable. This ensures that the algorithm can be    |
+|                 | followed exactly and consistently to produce the desired outcome. |
++-----------------+-------------------------------------------------------------------+
+| Finiteness      | Algorithms must terminate after a finite number of steps. They    |
+|                 | cannot run indefinitely, ensuring that the problem-solving        |
+|                 | process eventually reaches a conclusion.                          |
++-----------------+-------------------------------------------------------------------+
+| Effectiveness   | Algorithms must be effective in solving the problem they are      |
+|                 | designed for. This means they should correctly solve the problem, |
+|                 | preferably in an efficient manner, within reasonable time and     |
+|                 | resource constraints.                                             |
++-----------------+-------------------------------------------------------------------+
 
 
 ```
