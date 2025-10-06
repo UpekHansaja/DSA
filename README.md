@@ -90,7 +90,7 @@ Find the largest number among three numbers:
 
  - [Time Complexity](./TimeComplexity/):
      - Amount of time required for an execution.
-  
- - Space Complexity:
+
+ - [Space Complexity](./SpaceComplexity/):
      - Amount of memory space required when it runs.
 
