@@ -194,6 +194,12 @@ Examples of non-primitive data types include:
 
 A Linear Data Structure maintains a straight-line connection between its data elements, where each element is linked to its predecessors and successors, except for the first and last elements. However, the physical arrangement in memory may not follow this linear sequence.
 
+Examples of Linear Data Structures include:
+ - [Arrays](./DataStructures/Linear/Array/)
+ - Linked Lists
+ - Stacks
+ - Queues
+
 Linear data structures are categorized into two types based on their memory allocation:
 
  - Static Data Structures
@@ -220,20 +226,3 @@ In linear structures, each element occupies an entire memory block, potentially 
 Non-linear data structures optimize memory usage, reducing space complexity.
 
 
-## Data Structures of Data Types
-
-Data structures can be classified based on the data types they store. The primary categories include:
-
-1. **Primitive Data Structures**: These are the basic data types provided by programming languages. They include:
-   - Integers
-   - Floats
-   - Characters
-   - Booleans
-
-2. **Non-Primitive Data Structures**: These are more complex data types that are built using primitive data types. They include:
-   - Arrays
-   - Linked Lists
-   - Stacks
-   - Queues
-   - Trees
-   - Graphs
