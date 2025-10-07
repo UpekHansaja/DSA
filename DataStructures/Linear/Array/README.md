@@ -1,6 +1,6 @@
 # Array
 
-![Array of Small Town](res/img/undraw_small-town_76a2.svg)
+![Array of Small Town](../../../res/img/undraw_small-town_76a2.svg)
 
 </br>
 
