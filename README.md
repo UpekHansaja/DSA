@@ -193,3 +193,47 @@ Examples of non-primitive data types include:
 ### Linear Data Structures
 
 A Linear Data Structure maintains a straight-line connection between its data elements, where each element is linked to its predecessors and successors, except for the first and last elements. However, the physical arrangement in memory may not follow this linear sequence.
+
+Linear data structures are categorized into two types based on their memory allocation:
+
+ - Static Data Structures
+ - Dynamic Data Structures
+
+
+#### Static Data Structures
+
+Static Data Structures have a predetermined size allocated during compilation, and users cannot alter this size after compilation. However, the data stored within these structures can be modified.
+
+#### Dynamic Data Structures
+
+Dynamic Data Structures are those whose size can change during runtime, with memory allocated as needed. Users can modify both the size and the data elements stored within these structures while the code is executing.
+
+
+### Non-Linear Data Structures
+
+Non-linear data structures store data hierarchically, allowing it to exist at multiple levels and making traversal more complex than in linear data structures.
+
+They address the limitations of linear data structures, such as inefficient memory allocation.
+
+In linear structures, each element occupies an entire memory block, potentially wasting space if the element doesn't fully utilize the block.
+
+Non-linear data structures optimize memory usage, reducing space complexity.
+
+
+## Data Structures of Data Types
+
+Data structures can be classified based on the data types they store. The primary categories include:
+
+1. **Primitive Data Structures**: These are the basic data types provided by programming languages. They include:
+   - Integers
+   - Floats
+   - Characters
+   - Booleans
+
+2. **Non-Primitive Data Structures**: These are more complex data types that are built using primitive data types. They include:
+   - Arrays
+   - Linked Lists
+   - Stacks
+   - Queues
+   - Trees
+   - Graphs
