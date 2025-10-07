@@ -94,3 +94,102 @@ Find the largest number among three numbers:
  - [Space Complexity](./SpaceComplexity/):
      - Amount of memory space required when it runs.
 
+
+***
+
+
+## Data Structures and Types
+
+Data Types can be classified into two categories:
+
+ - Primitive Data Types
+ - Non-Primitive Data Types
+
+### Primitive Data Types
+
+The primitive data structure, also referred to as built-in data types, can only store data of a single type. This includes integers, floating points, characters, and similar types.
+
+Examples of primitive data types include:
+ - int
+ - float
+ - char
+ - boolean
+ - double
+ - byte
+ - short
+ - long
+
+### Non-Primitive Data Types
+
+Non-primitive data structure, unlike their primitive counterparts, can store data of multiple types. Examples include arrays, linked lists, stacks, queues, trees, and graphs. These are often termed derived data types.
+
+Examples of non-primitive data types include:
+ - Arrays
+ - Strings
+ - Classes
+ - Interfaces
+ - Lists
+ - Stacks
+ - Queues
+ - Trees
+ - Maps
+
+
+```plaintext
+
+                                    Data Structure
+                                           | 
+           +-------------------------------+-------------------------------+
+           |                                                               |
+    Primitive Data Types                                       Non-Primitive Data Types
+           |                                                               |
+           |-- int                            +----------------------------+------------------------+
+           |-- char                           |                                                     |
+           |-- float                        Linear                                               Non-Linear
+           |-- bool                           |                                                     |
+           |-- long                     +-----+-----+                                       +-------+-------+
+           |-- short                    |           |                                       |               |
+           |-- pointer                Static      Dynamic                                 Tree            Graph
+           |-- double                   |           |                                                      
+           +-- byte                   Arrays        |-- Linked List 
+                                                    |-- Stack
+                                                    +-- Queue
+
+```
+
+
+```plaintext
+
+                        Linear                                    Non-Linear
+                                               |         
+                                               |
+                    |       |                  |                       (1)
+                    |-------|                  |                      /   \
+                    |   C   |                  |                     /     \
+                    |-------|                  |                   (2)      (4)
+                    |   B   |                  |                  /   \ 
+                    |-------|                  |                 /     \
+                    |   A   |                  |               (3)      (5)
+                    +-------+                  |              
+                                               |
+                                               |
+        ------------------------------         |                   (1)
+           4  |  2  |  3  |  5  |  6           |                  /   \
+        ------------------------------         |                 /     \
+                                               |               (2)-----(3)
+                                               |
+                                               |
+        +-----+-----+-----+-----+-----+        |                          (1)
+        |  1  |  3  |  5  |  7  |  9  |        |                         /
+        +-----+-----+-----+-----+-----+        |                        /
+                                               |                      (2)
+                                               |                     
+                                               |                    
+
+
+```
+
+
+### Linear Data Structures
+
+A Linear Data Structure maintains a straight-line connection between its data elements, where each element is linked to its predecessors and successors, except for the first and last elements. However, the physical arrangement in memory may not follow this linear sequence.
