@@ -410,3 +410,48 @@ After removing element at index 2:
 10 20 40 50
 
 ```
+
+
+## Array - Insertion Operation
+
+In the insertion operation, one or more elements are added to the array.
+Depending on the requirement, a new element can be added at the beginning, end or at any given index of the array. This is typically accomplished using input statements in programming languages.
+
+### Insertion at the End
+
+In an unsorted array, the insert operation is fater as compared to a sorted array because we don't have to care about the poistion at which the element is to be placed.
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+### Insertion at any position
+
+Insert operations in an array at any position can be performed by shifting elements to the right, which are on the right side of the required position.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+## Array - Search Operation
+
+In an unordered array, the elements are not arranged in any particular order.
+When you need to find a specific item in such an array, you typically have to check each element one by one until you find the desired item. This process is called linear traversal or linear search.
+
+### Search operation:
+
+In an unsorted array, the search operation is less efficient compared to a sorted array because we cannot rely on the order of elements for quicker access.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+
+## Array - Delete Operation
+
+During the delete operation, the element slated for removal is located via linear search, after which the deletion is executed, leading to a subsequent adjustment of the array by shifting the remaining elements.
+
+### Delete operation:
+
+In an unsorted array, the deletion operation can be less efficient compared to a sorted array due to the need for linear search to locate the element to be deleted, followed by the subsequent adjustment of the array by shifting the remaining elements.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
