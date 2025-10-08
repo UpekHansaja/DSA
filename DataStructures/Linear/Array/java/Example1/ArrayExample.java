@@ -1,3 +1,4 @@
+package Example1;
 public class ArrayExample {
     private int[] array;
     private int size;
@@ -43,6 +44,7 @@ public class ArrayExample {
         arr.add(60);
         arr.add(70);
         arr.add(80);
-        arr.display(); // Output: 10 20 30 40 50
+        System.out.println("");
+        arr.display(); // Output: 10 20 30 40 50 60 70 80
     }
 }

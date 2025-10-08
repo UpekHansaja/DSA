@@ -37,7 +37,7 @@ This means accessing any index in the array takes the same amount of time, regar
 This efficiency is due to arrays having a pointer to the memory location and an offset value indicating the distance to look within the memory.
 
 
-## Array Example
+## Array Example 1
 
  Current array ----> 10, 20, 30, 40
  
@@ -102,8 +102,113 @@ public class ArrayExample {
         arr.add(30);
         arr.add(40);
         arr.add(50);
-        arr.display(); // Output: 10 20 30 40 50
+        arr.add(60);
+        arr.add(70);
+        arr.add(80);
+        System.out.println("");
+        arr.display(); // Output: 10 20 30 40 50 60 70 80
     }
 }
+
+```
+
+
+Output:
+
+```plaintext
+
+Array is full: Cannot add 60 to the current array.
+Resizing the array to accommodate more elements.
+Array is full: Cannot add 70 to the current array.
+Resizing the array to accommodate more elements.
+Array is full: Cannot add 80 to the current array.
+Resizing the array to accommodate more elements.
+
+10 20 30 40 50 60 70 80
+
+```
+
+## Array Example 2
+
+ Add by index: 2, 25
+
+Algorithm:
+
+```plaintext
+
+ 1. Start
+ 2. Check if the index is valid and if there's space in the array. (O(1))
+ 3. Shift all elements from the specified index to the right by one position to make space for the new element. (O(n))
+ 4. Insert the new element at the specified index. (O(1))
+ 5. Increment the size of the array. (O(1))
+ 6. End.
+
+```
+
+Java:
+
+```java
+
+public class ArrayExample {
+    private int[] array;
+    private int size;
+    private int capacity;
+
+    public ArrayExample(int capacity) {
+        this.capacity = capacity;
+        this.array = new int[capacity];
+        this.size = 0;
+    }
+
+    public void addByIndex(int index, int element) {
+        if (index < 0 || index > size) {
+            System.out.println("Invalid index: " + index);
+            return;
+        }
+        if (size >= capacity) {
+            System.out.println("Array is full: Cannot add " + element + " at index " + index);
+            System.out.println("Resizing the array to accommodate more elements.");
+            // Handle array resizing or other logic here
+            capacity++;
+            int[] newArray = new int[capacity];
+            System.arraycopy(array, 0, newArray, 0, size);
+            array = newArray;
+        }
+        for (int i = size; i > index; i--) {
+            array[i] = array[i - 1];
+        }
+        array[index] = element;
+        size++;
+    }
+
+    public void display() {
+        for (int i = 0; i < size; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        ArrayExample arr = new ArrayExample(5);
+        arr.addByIndex(0, 10);
+        arr.addByIndex(1, 20);
+        arr.addByIndex(2, 30);
+        arr.addByIndex(3, 40);
+        arr.addByIndex(4, 50);
+        arr.addByIndex(2, 25); // Adding 25 at index 2
+        System.out.println("");
+        arr.display(); // Output: 10 20 25 30 40 50
+    }
+}
+
+```
+
+Output:
+
+```plaintext
+
+Array is full: Cannot add 25 at index 2
+Resizing the array to accommodate more elements.
+10 20 25 30 40 50   
 
 ```
