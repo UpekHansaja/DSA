@@ -1,4 +1,4 @@
-# Array
+# Array Data Structure
 
 ![Array of Small Town](../../../res/img/undraw_small-town_76a2.svg)
 
