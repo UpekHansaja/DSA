@@ -19,3 +19,17 @@ Additionally, queue typically support auxiliary operations such as:
  - isFull: Check if the queue is full.
 
 Every queue includes two pointers, *FRONT* and *REAR*, which indicate the position where deletion and insertion can be performed. Initially, values of *FRONT* and *REAR* is set to -1.
+
+
+```plaintext
+
+
+    -------------------               -------------------               -------------------               -------------------
+                               ---->  |  1  |                    ---->  |  2  |  1  |                           |  2  |   |  1  | ---->
+    -------------------               -------------------               -------------------               -------------------
+
+        empty queue                         enqueue(1)                       enqueue(2)                        dequeue() -> 1
+
+
+```
+
