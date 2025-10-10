@@ -198,7 +198,7 @@ Examples of Linear Data Structures include:
  - [Arrays](./DataStructures/Linear/Array/)
  - Linked Lists
  - [Stacks](./DataStructures/Linear/Stack/)
- - Queues
+ - [Queues](./DataStructures/Linear/Queue/)
 
 Linear data structures are categorized into two types based on their memory allocation:
 
