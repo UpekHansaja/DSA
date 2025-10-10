@@ -24,12 +24,49 @@ Every queue includes two pointers, *FRONT* and *REAR*, which indicate the positi
 ```plaintext
 
 
-    -------------------               -------------------               -------------------               -------------------
-                               ---->  |  1  |                    ---->  |  2  |  1  |                           |  2  |   |  1  | ---->
-    -------------------               -------------------               -------------------               -------------------
+    -------------------               -------------------               -------------------        -------------------
+                               ---->  |  1  |                    ---->  |  2  |  1  |                  |  2  |   |  1  | ---->
+    -------------------               -------------------               -------------------        -------------------
 
         empty queue                         enqueue(1)                       enqueue(2)                        dequeue() -> 1
 
 
 ```
 
+
+## Working of Queue Data Structure
+
+The operations for managing a queue data structure are as follows:
+
+**Initialization:**
+
+ - Two pointers, *FRONT* and *REAR*, are used to keep track of the first and last elements in the queue, respectively.
+ - When initializing the queue, set *FRONT* to *-1* and REAR to *-1*. This initial state helps in checking if the queue is empty.
+
+
+**Enqueue Operation:**
+
+ - Before adding an element, check if the queue is already full.
+ - If the queue is not full, proceed as follows:
+   - If the queue is empty, set *FRONT* to 0.
+   - Increase the value of *REAR* by 1.
+   - Place the new element in the position pointed to by *REAR*.
+
+
+**Dequeue Operation:**
+
+ - Before removing an element, check if the queue is empty.
+ - If the queue is not empty, proceed as follows:
+   - Return the element pointed to by *FRONT*.
+   - If *FRONT* is equal to *REAR*, reset both *FRONT* and *REAR* to -1 (indicating the queue is now empty).
+   - Otherwise, increase the value of *FRONT* by 1.
+
+
+## Types of Queues
+
+There are several types of queues, each with its own characteristics and use cases:
+
+    - Simple Queue
+    - Circular Queue
+    - Priority Queue
+    - Deque (Double-Ended Queue)
