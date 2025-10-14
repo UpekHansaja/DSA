@@ -196,7 +196,7 @@ A Linear Data Structure maintains a straight-line connection between its data el
 
 Examples of Linear Data Structures include:
  - [Arrays](./DataStructures/Linear/Array/)
- - Linked Lists
+ - [Linked Lists](./DataStructures/Linear/LinkedLists/)
  - [Stacks](./DataStructures/Linear/Stack/)
  - [Queues](./DataStructures/Linear/Queue/)
 

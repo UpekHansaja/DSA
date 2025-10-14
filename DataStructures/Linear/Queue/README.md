@@ -192,3 +192,5 @@ The operations for managing a deque data structure are as follows:
       - Size (size): Returns the number of elements currently in the deque.
       - Empty Check (isEmpty): Checks if the deque is empty.
       - Clear: Removes all elements from the deque.
+
+
