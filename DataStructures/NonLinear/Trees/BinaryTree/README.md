@@ -26,6 +26,8 @@ A full binary tree is a special type of binary tree in which every parent node/i
             (6)   (7)                      |  
                                            |
                                            |
+                 ✅                        |                       ❌  
+                                           |
 
 ```
 
@@ -52,6 +54,8 @@ A perfect binary tree is a type of binary tree in which every internal node has 
           /   \     /   \                  |                 /  \     /
         (4)   (5) (6)   (7)                |               (4)  (5) (6)
                                            |
+                                           |
+                 ✅                        |                       ❌  
                                            |
 
 ```
