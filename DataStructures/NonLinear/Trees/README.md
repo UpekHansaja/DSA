@@ -6,13 +6,13 @@ A tree is a  widly abstracted data type (ADT) that simulates a hierarchical tree
 
 ```plaintext
 
-               (A)
-               / \
-              /   \
-            (B)   (C)
-            / \ 
-           /   \
-         (D)   (E)
+                       (A)
+                       / \
+                      /   \
+                    (B)   (C)
+                    / \ 
+                   /   \
+                 (D)   (E)
 
 ```
 
@@ -39,9 +39,11 @@ A tree is a  widly abstracted data type (ADT) that simulates a hierarchical tree
 
 - **Subtree**: A tree consisting of a node and its descendants.
 
+</br>
 
-![Tree Data structure](image.png)
+![Tree Data structure](../../../res/img/TreeImage.png)
 
+</br>
 
 ## Types of Trees:
 
@@ -56,3 +58,15 @@ A tree is a  widly abstracted data type (ADT) that simulates a hierarchical tree
 - **B-Tree**: A self-balancing search tree in which nodes can have multiple children, often used in databases and file systems.
 
 - **Trie**: A tree-like data structure used to store a dynamic set of strings, where the keys are usually strings.
+
+
+## Basic Operations:
+
+ - **Insertion**: Adding a new node to the tree.
+
+ - **Deletion**: Removing a node from the tree.
+
+ - **Traversal**: Visiting all the nodes in a specific order.
+     - **In-order Traversal**: Left, Root, Right (for BST, it gives sorted order).
+     - **Pre-order Traversal**: Root, Left, Right.
+     - **Post-order Traversal**: Left, Right, Root.
