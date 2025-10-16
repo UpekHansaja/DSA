@@ -225,4 +225,8 @@ In linear structures, each element occupies an entire memory block, potentially 
 
 Non-linear data structures optimize memory usage, reducing space complexity.
 
-
+Examples of Non-Linear Data Structures include:
+ - [Trees](./DataStructures/NonLinear/Trees/)
+ - [Graphs](./DataStructures/NonLinear/Graphs/)
+ - [Heaps](./DataStructures/NonLinear/Heaps/)
+ - [Sets](./DataStructures/NonLinear/Sets/)
