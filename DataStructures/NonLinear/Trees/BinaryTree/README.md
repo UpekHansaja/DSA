@@ -2,7 +2,7 @@
 
 A Binary Tree Data Structure is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. It is commonly used for efficient storage and retrieval of data, with various operations such as insertion, deletion, and traversal.
 
-![Binary Tree](../../../../res/img/BinaryTree.svg)
+![Binary Tree](../../../../res/img/BinaryTree.png)
 
 
 ## Full Binary Tree
@@ -109,7 +109,7 @@ A degenerate tree or pathological tree is a tree which having a single child eit
 
 ## Skewed Tree
 
-A skewed tree is a type of binary tree where all the nodes have only one child. It can be either left-skewed (all nodes have only left children) or right-skewed (all nodes have only right children).
+A skewed tree is a type of pathological or degenerate form of a binary tree where all the nodes have only one child. It can be either left-skewed (all nodes have only left children) or right-skewed (all nodes have only right children).
 
 ```plaintext
 
@@ -128,3 +128,4 @@ A skewed tree is a type of binary tree where all the nodes have only one child. 
                                               |
 
 ```
+
