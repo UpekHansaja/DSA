@@ -47,7 +47,7 @@ A tree is a  widly abstracted data type (ADT) that simulates a hierarchical tree
 
 ## Types of Trees:
 
-- **Binary Tree**: Each node has at most two children.
+- **[Binary Tree](./BinaryTree/)**: Each node has at most two children.
 
 - **Binary Search Tree (BST)**: A binary tree where the left child contains values less than the parent node, and the right child contains values greater than the parent node.
 
