@@ -129,3 +129,24 @@ A skewed tree is a type of pathological or degenerate form of a binary tree wher
 
 ```
 
+
+## Binary Tree Representation
+
+A node of a binary tree is represented by a structure containing a data part and two pointers to other structures of the same type.
+
+![Binary Tree Representation](../../../../res/img/BinaryTreeRepresent.png)
+
+
+
+### Inorder Traversal
+
+Inorder traversal is a depth-first traversal method used primarily for binary trees.
+
+In this method, nodes are visited in the following order:
+  
+  1. Visit the left subtree. Inorder (left subtree)
+  2. Visit the root node.
+  3. Visit the right subtree. Inorder (right subtree)
+
+
+![Inorder Traversal](../../../../res/img/InorderTraversal.png)
