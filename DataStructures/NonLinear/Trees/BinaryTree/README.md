@@ -150,3 +150,14 @@ In this method, nodes are visited in the following order:
 
 
 ![Inorder Traversal](../../../../res/img/InorderTraversal.png)
+
+
+### Preorder Traversal
+
+Preorder traversal is a tree traversal method where you visit the root node first, then recursively visit the left subtree, and finally, the right subtree. The steps for preorder traversal can be summarized as:
+  
+  1. Visit the root node.
+  2. Traverse the left subtree in preorder.
+  3. Traverse the right subtree in preorder.
+
+![Preorder Traversal](../../../../res/img/PreorderTraversal.png)
